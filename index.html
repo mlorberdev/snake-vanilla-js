@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Snake</title>
+    <link rel="icon" href="./mouse.svg">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <main class="rotated">
+        <section id="options">
+            <span id="length">length:<span id="ll" class="green">2</span></span>
+            <span id="interval">interval: <span id="tt" class="green">250</span><span class="green">ms</span></span>
+            <span>
+                <span>score: </span>
+                <span id="mice" class="blue">0</span>
+            </span>
+        </section>
+        <section>
+            <canvas id="canvas"></canvas>
+            <canvas id="bamCanvas"></canvas>
+        </section>
+        <section class="bottom">
+            <span>Press <span class="green">Enter</span> to Start</span>
+            <span>Check <input type="checkbox" id="motionbox"> to turn off motion</span>
+        </section>
+    </main>
+
+</body>
+
+<script src="./script.js"></script>
+
+</html>
